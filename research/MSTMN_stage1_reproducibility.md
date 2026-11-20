@@ -2,6 +2,11 @@
 
 확인일: 2026-11-20 (Asia/Seoul). 범위: 1단계 조사·계획 작성.
 
+재학습 후속 갱신: 추가 요청으로 [공식 아티팩트를 재확인](MSTMN_official_artifact_recheck.md)했지만
+코드·가중치를 확보하지 못했다. [CRVD 학습 장면 확보](CRVD_train_download_status.md)와
+[논문 기반 비공식 모델·재학습 코드](../docs/retraining.md)를 추가했다.
+아래 1단계의 미구현·미학습 표기는 당시 상태이며, 학습 실행은 별도 후속 작업이다.
+
 평가 코드 후속 갱신: 사용자가 선택한 **공식 모델 연결용 평가 파이프라인**을 작성했다.
 실제 CRVD 데이터 검사와 입력 복사 진단을 완료했으며, 공식 MSTMN 추론은 아직 수행하지 않았다.
 [사용법](../docs/evaluation.md)과 [검증 기록](MSTMN_eval_validation.json)을 참조한다.

@@ -1,0 +1,8 @@
+{
+  "source_url": "https://github.com/JingyunLiang/VRT/releases/download/v0.0/spynet_sintel_final-3d2a1287.pth",
+  "path": "C:\\Users\\HP\\yhkim\\denoising\\checkpoints\\upstream\\spynet_sintel_final-3d2a1287.pth",
+  "sha256": "3d2a1287666aa71752ebaedc06999212886ef476f77d691a1b0006107088e714",
+  "bytes": 5770711,
+  "verification": "SHA256 prefix matches upstream checkpoint filename",
+  "role": "SPyNet Sintel flow only, not MSTMN weights"
+}

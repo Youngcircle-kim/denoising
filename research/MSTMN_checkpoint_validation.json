@@ -1,0 +1,10 @@
+{
+  "completed_steps": 100,
+  "sha256": "37044319a972f4c0792ffda3086ba53505f47311c81efdcb34675d0f83addd52",
+  "bytes": 6520957,
+  "path": "E:\\denoising_runs\\mstmn-crvd-20261120\\checkpoint_diagnostic.pth",
+  "safe_weights_only_load_passed": true,
+  "optimizer_state_present": true,
+  "source_hashes_match": true,
+  "artifact_type": "mstmn-unofficial-retrain"
+}

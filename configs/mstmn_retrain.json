@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "artifact_type": "mstmn-unofficial-retrain",
+  "dataset": {
+    "scenes": [1, 2, 3, 4, 5, 6],
+    "isos": [1600, 3200, 6400, 12800, 25600],
+    "mode": "synthetic",
+    "sequence_length": 25,
+    "patch_size": 128,
+    "noisy_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "clip_inputs": true,
+    "quantize_synthetic": true,
+    "black_level": 240.0,
+    "white_level": 4095.0,
+    "cache_sequences": 30
+  },
+  "model": {
+    "memory_frames": 3,
+    "patch_size": 4,
+    "patch_stride": 4,
+    "query_chunk_size": 128
+  },
+  "training": {
+    "total_steps": 120000,
+    "batch_size": 16,
+    "num_workers": 2,
+    "checkpoint_interval": 100,
+    "log_interval": 10,
+    "loss": "mean_l1_all_frames",
+    "bptt": "full_sequence_without_detach"
+  },
+  "optimizer": {
+    "name": "Adam",
+    "learning_rate": 0.001,
+    "betas": [0.9, 0.999],
+    "eps": 1e-8,
+    "weight_decay": 0.0,
+    "schedule": [[15000, 0.0005], [40000, 0.0001]]
+  },
+  "reproducibility": {
+    "seed": 42,
+    "precision": "float32",
+    "amp": false,
+    "tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "deterministic_algorithms": false
+  },
+  "assumptions": [
+    "Paper-guided unofficial implementation; official MSTMN code and weights were not identified.",
+    "Synthetic-first training on CRVD scene 1-6; this sampling choice is not verified MSTMN source behavior.",
+    "25 frames use random-phase/direction ping-pong of seven captured frames, without endpoint duplication.",
+    "Packed RGBG crop128 starts at even packed coordinates; no spatial augmentation.",
+    "Synthetic noise uses CRVD author DN coefficients, DN clipping and uint16 truncation; GT float DN is preserved.",
+    "First restoration and all three initial memory slots use the first noisy frame.",
+    "Full 25-frame BPTT; one optimizer update per effective batch16; no gradient clipping.",
+    "Learning-rate thresholds are one-based: update15000 uses0.0005 and update40000 uses0.0001.",
+    "Frozen BasicSR Sintel SPyNet with explicit RAW-to-RGB bridge is a reproduction choice.",
+    "CUDA grid_sample backward may be nondeterministic even with fixed seeds; bitwise GPU repeatability is not claimed.",
+    "No validation or tuning on CRVD test scenes occurs in this training engine."
+  ],
+  "evidence": {
+    "paper": "MSTMN IV-A, PDFp8/printed5817: crop128 packed, sequence25, batch16, Adam,120000 iterations and learning-rate milestones.",
+    "noise": "https://github.com/cao-cong/RViDeNet/blob/master/synthesize_noise.py#L8-L23"
+  }
+}

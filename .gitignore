@@ -228,6 +228,8 @@ __marimo__/
 /benchmark-downloads/
 /.venv-download/
 /.venv-eval/
+/.venv-train/
+/runs/
 /results/
 /checkpoints/
 *.pth

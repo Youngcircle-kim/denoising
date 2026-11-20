@@ -1,14 +1,16 @@
 # CRVD RAW 평가 코드
 
 공식 MSTMN 모델을 연결할 수 있는 독립 평가 도구입니다. 공식 코드·가중치는 아직 확보하지 못했습니다.
-이 저장소에는 MSTMN 구조를 추정해 만든 모델이나 학습된 MSTMN 가중치가 없습니다.
+공식 MSTMN 구현이나 저자가 공개한 가중치는 포함하지 않습니다.
+후속 요청으로 추가한 [논문 기반 비공식 재학습 모듈](retraining.md)은 별도로 구분합니다.
 데이터·지표·반복 실행을 준비한 상태이며, Table III 재현 성공을 주장하지 않습니다.
 
 ## 원격 서버에서 바로 실행
 
 작업 위치는 `C:\Users\HP\yhkim\denoising`, 데이터는 `E:\datasets\crvd`입니다.
 다운로드용 `.venv-download`와 별도로 평가용 `.venv-eval`을 준비했습니다.
-PyTorch·CUDA 및 공식 모델 의존성은 설치하지 않았습니다.
+평가 전용 `.venv-eval`에는 PyTorch·CUDA 및 공식 모델 의존성을 설치하지 않았습니다.
+후속 재학습용 `.venv-train`에는 별도로 GPU PyTorch를 준비했습니다.
 Windows CPython 3.13.17에서 실제 설치·검증한 전체 패키지 버전은
 [requirements-eval.windows.lock.txt](../requirements-eval.windows.lock.txt)에 기록했습니다.
 

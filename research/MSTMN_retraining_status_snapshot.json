@@ -1,0 +1,41 @@
+{
+  "artifact_type": "mstmn-unofficial-retrain",
+  "state": "running",
+  "pid": 20412,
+  "started_at_utc": "2026-11-20T08:15:01.336892+00:00",
+  "updated_at_utc": "2026-11-20T09:46:38.885280+00:00",
+  "completed_steps": 4758,
+  "run_max_steps": 120000,
+  "recipe_total_steps": 120000,
+  "effective_batch_size": 16,
+  "microbatch_size": 16,
+  "data_root": "E:\\datasets\\crvd",
+  "checkpoint": "E:\\denoising_runs\\mstmn-crvd-20261120\\last.pth",
+  "flow": {
+    "path": "C:\\Users\\HP\\yhkim\\denoising\\checkpoints\\upstream\\spynet_sintel_final-3d2a1287.pth",
+    "sha256": "3d2a1287666aa71752ebaedc06999212886ef476f77d691a1b0006107088e714"
+  },
+  "source_hashes": {
+    "model.py": "afa3cd476ef02f3b723ddf694fb5d1b4f4320eb967a8b701d41800d99b9962e4",
+    "data.py": "2ff6e622c47e4a05ff82ab3c73be98966534a427e5fa0483e884f55370a68c7b",
+    "flow.py": "0e593827836ab071216b6558e2370d1270e7c4156445b8c69b74c741328c05d7",
+    "train.py": "2033e9a779fb42598488b286e26cc4c981fcd9ed891a947a5529a70d78e294a7",
+    "denoising_eval/data.py": "6816a1252b7a0a38f0c21f3b922b534d255dfa773b8423765634401e78e8ad1e"
+  },
+  "torch_version": "2.10.0+cu130",
+  "device": "cuda",
+  "cuda_runtime": "13.0",
+  "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "last_checkpoint_steps": 4700,
+  "last_observation": {
+    "at_utc": "2026-11-20T09:46:38.885014+00:00",
+    "step": 4758,
+    "loss": 0.006206751335412264,
+    "learning_rate": 0.001,
+    "step_seconds": 0.7795928999985335,
+    "run_seconds": 5497.548142399999,
+    "cuda_peak_allocated_bytes": 5016420352,
+    "cuda_peak_reserved_bytes": 5131730944
+  },
+  "ssh_disconnect_survival_verified": true
+}

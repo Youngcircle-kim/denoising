@@ -1,0 +1,2 @@
+# Install torch==2.10.0 from https://download.pytorch.org/whl/cu130 separately on the Windows GPU server.
+-r requirements-eval.txt
