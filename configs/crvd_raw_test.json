@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scenes": [7, 8, 9, 10, 11],
+  "iso_values": [1600, 3200, 6400, 12800, 25600],
+  "noisy_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "black_level": 240.0,
+  "white_level": 4095.0,
+  "clip_input": false,
+  "clip_prediction": true,
+  "clip_target": false,
+  "crop_border": 0,
+  "warmup_frames": 0,
+  "protocol_status": "provisional_not_author_verified",
+  "protocol_notes": [
+    "All 10 observed noisy realizations are evaluated as independent 7-frame sequences; the paper's exact selection is unconfirmed.",
+    "GBRG is packed as R,G(top-left),B,G(bottom-right); this is a local adapter contract, not a verified MSTMN channel mapping.",
+    "Black/white levels come from CRVD authors; clipping, warm-up, SSIM and aggregation choices need confirmation against official MSTMN code.",
+    "Adapters must reset recurrent state per scene/ISO/noisy realization and own initialization, memory, flow and noise coefficient conversion.",
+    "Metrics use normalized Bayer mosaics; Table III comparison remains provisional. No ISP or sRGB evaluation is provided."
+  ]
+}

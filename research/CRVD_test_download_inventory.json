@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "dataset": "crvd",
+  "split": "test",
+  "scenes": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "iso_values": [
+    1600,
+    3200,
+    6400,
+    12800,
+    25600
+  ],
+  "archive_count": 10,
+  "total_archive_bytes": 6719303964,
+  "data_root": "E:\\datasets",
+  "python_version": "3.13.17",
+  "python_executable": "C:\\Users\\HP\\yhkim\\denoising\\.venv-download\\Scripts\\python.exe",
+  "gdown_version": "6.5.2",
+  "packages": [
+    "beautifulsoup4==4.15.0",
+    "certifi==2026.10.23",
+    "charset-normalizer==3.5.2",
+    "colorama==0.4.6",
+    "filelock==4.2.12",
+    "gdown==6.5.2",
+    "idna==3.20",
+    "pip==26.2.2",
+    "PySocks==1.7.1",
+    "requests==2.34.2",
+    "soupsieve==4.1.2",
+    "tqdm==4.70.1",
+    "typing_extensions==4.16.0",
+    "urllib3==2.8.0"
+  ],
+  "run": {
+    "dataset": "crvd",
+    "stdout": "E:\\datasets\\logs\\crvd-test-1795156377702.stdout.log",
+    "finished_utc": "2026-11-20T06:47:59.9102399Z",
+    "started_utc": "2026-11-20T06:32:59.7562931Z",
+    "archive_count": 10,
+    "python": "C:\\Users\\HP\\yhkim\\denoising\\.venv-download\\Scripts\\python.exe",
+    "split": "test",
+    "stderr": "E:\\datasets\\logs\\crvd-test-1795156377702.stderr.log",
+    "pid": 14396,
+    "status": "completed",
+    "exit_code": null,
+    "download_exit_code_observed": null,
+    "verification_exit_code": 0,
+    "verified_utc": "2026-11-20T06:50:05.2212450Z",
+    "completion_basis": "All 10 selected archive CRCs, receipt source IDs, sizes and SHA256 reverified by explicit verify command; original Start-Process ExitCode was unavailable"
+  },
+  "validation": "ZIP CRC and local SHA-256 at download; source IDs and sizes rechecked; ZIP ISO listings inspected",
+  "publisher_checksums_available": false,
+  "extracted": true,
+  "archives": [
+    {
+      "name": "indoor_raw_gt_scene7.zip",
+      "source_id": "1oo9ux2w7W2eDpwbwgOrJ4jLRPTW3EhCk",
+      "size_bytes": 126211199,
+      "sha256": "1106d90a628a848dd95b8709ea877e149a73dd977cabcaf0209cf78958bbfd61",
+      "files": 35,
+      "iso_counts": {
+        "1600": 7,
+        "3200": 7,
+        "6400": 7,
+        "12800": 7,
+        "25600": 7
+      },
+      "noisy_files": 0,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_noisy_scene7.zip",
+      "source_id": "1rOk2h5xV63vocWN83G4wShDgJtljeX-j",
+      "size_bytes": 1207541429,
+      "sha256": "a998df68039309c5be77bd4001bd10477232bf8b3e0e1d556412f099b8d5d09f",
+      "files": 385,
+      "iso_counts": {
+        "1600": 77,
+        "3200": 77,
+        "6400": 77,
+        "12800": 77,
+        "25600": 77
+      },
+      "noisy_files": 350,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_gt_scene8.zip",
+      "source_id": "1B_HThh4TQqaf3vIHqFIXiPvhElSbClLl",
+      "size_bytes": 124789883,
+      "sha256": "aa20f9ee3e76f8e868f615b41faeae71b75fe211dd86974db6bb7b4c9e8c6650",
+      "files": 35,
+      "iso_counts": {
+        "1600": 7,
+        "3200": 7,
+        "6400": 7,
+        "12800": 7,
+        "25600": 7
+      },
+      "noisy_files": 0,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_noisy_scene8.zip",
+      "source_id": "1rVBWYgIMTonkNlG_fhQgTft84ACLY9nQ",
+      "size_bytes": 1228085544,
+      "sha256": "536105990956dea84b802ff20cb66612a5aea29a63c1d02110e440fb20398105",
+      "files": 385,
+      "iso_counts": {
+        "1600": 77,
+        "3200": 77,
+        "6400": 77,
+        "12800": 77,
+        "25600": 77
+      },
+      "noisy_files": 350,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_gt_scene9.zip",
+      "source_id": "1OU9RUJFLeYTOs8AobKRLW3zbSMfqMdne",
+      "size_bytes": 120762613,
+      "sha256": "94e5b3a2d62bc5aac15d8e100a29a767a1eccf92e421aac1b194eb2a2453fd21",
+      "files": 35,
+      "iso_counts": {
+        "1600": 7,
+        "3200": 7,
+        "6400": 7,
+        "12800": 7,
+        "25600": 7
+      },
+      "noisy_files": 0,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_noisy_scene9.zip",
+      "source_id": "1MTab97Zs-UOpQ_66sYiqt9Ivjay57Gxh",
+      "size_bytes": 1220414490,
+      "sha256": "f6608e017e9e64cff468e462d813e977788abceac6a233258426020ff11afc67",
+      "files": 385,
+      "iso_counts": {
+        "1600": 77,
+        "3200": 77,
+        "6400": 77,
+        "12800": 77,
+        "25600": 77
+      },
+      "noisy_files": 350,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_gt_scene10.zip",
+      "source_id": "1D39bMlks_-FpQbVfFuQJBb7lEqdYp_2P",
+      "size_bytes": 130416199,
+      "sha256": "f731b9bc925a468bae9dd4ef3838db398819371cc1442a94d0c40c1234c1c8ff",
+      "files": 35,
+      "iso_counts": {
+        "1600": 7,
+        "3200": 7,
+        "6400": 7,
+        "12800": 7,
+        "25600": 7
+      },
+      "noisy_files": 0,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_noisy_scene10.zip",
+      "source_id": "1n8onhGDqPu0cJSxQ_stfLJlTeTiQgKCW",
+      "size_bytes": 1240960799,
+      "sha256": "20ea53fb9512aec3e6f286dc30f42db34324d506fa06456541541a31cffbfa7d",
+      "files": 385,
+      "iso_counts": {
+        "1600": 77,
+        "3200": 77,
+        "6400": 77,
+        "12800": 77,
+        "25600": 77
+      },
+      "noisy_files": 350,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_gt_scene11.zip",
+      "source_id": "1u14r3FArcu_JYemIt-fpNQHBbnv_AzI7",
+      "size_bytes": 124095532,
+      "sha256": "7aee6053a9527a2068bc5db67b6773349a06e7229176db66e010b3e23c2d9892",
+      "files": 35,
+      "iso_counts": {
+        "1600": 7,
+        "3200": 7,
+        "6400": 7,
+        "12800": 7,
+        "25600": 7
+      },
+      "noisy_files": 0,
+      "clean_files": 35
+    },
+    {
+      "name": "indoor_raw_noisy_scene11.zip",
+      "source_id": "1r2EhmaNc94WvWT4C4OPbvzeEpQkCwtqG",
+      "size_bytes": 1196026276,
+      "sha256": "8c76944c74b2cea9f52ecfcaad82751d309758e8ba085cec0a6a2e8a784b20ed",
+      "files": 385,
+      "iso_counts": {
+        "1600": 77,
+        "3200": 77,
+        "6400": 77,
+        "12800": 77,
+        "25600": 77
+      },
+      "noisy_files": 350,
+      "clean_files": 35
+    }
+  ],
+  "extraction": {
+    "extracted_root": "E:\\datasets\\crvd",
+    "file_count": 2100,
+    "total_extracted_bytes": 9435138300,
+    "completed_at_utc": "2026-11-20T07:00:48.148231+00:00",
+    "execution_exit_code": 0,
+    "receipt_path": "E:\\datasets\\receipts\\crvd-test-extraction.json"
+  }
+}

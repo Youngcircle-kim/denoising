@@ -1,0 +1,4 @@
+# Evaluation only. Install official model dependencies separately after identification.
+numpy==2.2.6
+tifffile==2025.10.4
+scikit-image==0.25.2

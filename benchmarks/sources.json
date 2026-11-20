@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-20",
+  "datasets": {
+    "crvd": {
+      "homepage": "https://github.com/cao-cong/RViDeNet#dataset",
+      "license": "CC-BY-NC-SA-4.0; academic non-commercial use only",
+      "license_url": "https://github.com/cao-cong/RViDeNet#copyright",
+      "drive_root": "https://drive.google.com/drive/folders/1TZhNrsJ4tmKaU7b9b_9hkJIhwMi9Tfk3",
+      "metadata_urls": [
+        "https://drive.google.com/embeddedfolderview?id=1TZhNrsJ4tmKaU7b9b_9hkJIhwMi9Tfk3",
+        "https://drive.google.com/embeddedfolderview?id=1z6LHPZrId7uunyII0rHRWZ6UOcNe3AJ7",
+        "https://drive.google.com/embeddedfolderview?id=19M8EnwomzoBf0QXaHyE17D0fB-Yja26g",
+        "https://drive.google.com/embeddedfolderview?id=1yDOUoVi4J1_9WentJQXQspS-ACAn0Lqh"
+      ],
+      "iso_values": [1600, 3200, 6400, 12800, 25600],
+      "note": "Exact archive names and file IDs were read from the official public folder metadata. Archive payloads and internal paths were not downloaded or inspected. Sizes and publisher hashes were not verified and are null.",
+      "files": [
+        {"collection": "indoor_raw_gt", "scene": 1, "name": "indoor_raw_gt_scene1.zip", "id": "1dSC748iD8O8G7JHQH0-Kap19sP8uRE05", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 2, "name": "indoor_raw_gt_scene2.zip", "id": "1GVGKG8YUUR1O7RgcYJYY-Js4LZpk-aZ8", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 3, "name": "indoor_raw_gt_scene3.zip", "id": "1rfEY23yiuespqPYuS3k0-qdlnWGAe2dk", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 4, "name": "indoor_raw_gt_scene4.zip", "id": "1FDv_CMlmBHWrF3CThoPqj1mTD0AghmNt", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 5, "name": "indoor_raw_gt_scene5.zip", "id": "1D4HEEgnH552njkn4H1zC3bicJxmgjKqa", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 6, "name": "indoor_raw_gt_scene6.zip", "id": "1pyCaiIlcBG88TeMv8n5eKD3XxtbM0dT-", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 7, "name": "indoor_raw_gt_scene7.zip", "id": "1oo9ux2w7W2eDpwbwgOrJ4jLRPTW3EhCk", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 8, "name": "indoor_raw_gt_scene8.zip", "id": "1B_HThh4TQqaf3vIHqFIXiPvhElSbClLl", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 9, "name": "indoor_raw_gt_scene9.zip", "id": "1OU9RUJFLeYTOs8AobKRLW3zbSMfqMdne", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 10, "name": "indoor_raw_gt_scene10.zip", "id": "1D39bMlks_-FpQbVfFuQJBb7lEqdYp_2P", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_gt", "scene": 11, "name": "indoor_raw_gt_scene11.zip", "id": "1u14r3FArcu_JYemIt-fpNQHBbnv_AzI7", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 1, "name": "indoor_raw_noisy_scene1.zip", "id": "1NmKbkBShdcy0qF_AYKSTAPCrDrHz9B13", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 2, "name": "indoor_raw_noisy_scene2.zip", "id": "1VAyco1eJMGS_oCOwo_MKhIz0WVzIl1UE", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 3, "name": "indoor_raw_noisy_scene3.zip", "id": "1xEgs_94PfATzHzXdWgCgs28VBc6ENaeS", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 4, "name": "indoor_raw_noisy_scene4.zip", "id": "1zG5wYrLh9XdwBz7BGRMCULp5XC-2zg7U", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 5, "name": "indoor_raw_noisy_scene5.zip", "id": "1luc_bOWEpfcbFUxtykFlbT24vbLbqaU8", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 6, "name": "indoor_raw_noisy_scene6.zip", "id": "1Do86mE_DW2oujNIrvXDGgU_Vdas8-383", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 7, "name": "indoor_raw_noisy_scene7.zip", "id": "1rOk2h5xV63vocWN83G4wShDgJtljeX-j", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 8, "name": "indoor_raw_noisy_scene8.zip", "id": "1rVBWYgIMTonkNlG_fhQgTft84ACLY9nQ", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 9, "name": "indoor_raw_noisy_scene9.zip", "id": "1MTab97Zs-UOpQ_66sYiqt9Ivjay57Gxh", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 10, "name": "indoor_raw_noisy_scene10.zip", "id": "1n8onhGDqPu0cJSxQ_stfLJlTeTiQgKCW", "size_bytes": null, "sha256": null},
+        {"collection": "indoor_raw_noisy", "scene": 11, "name": "indoor_raw_noisy_scene11.zip", "id": "1r2EhmaNc94WvWT4C4OPbvzeEpQkCwtqG", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 1, "name": "outdoor_raw_noisy_scene1.zip", "id": "1BCgAL4LGRjzjWolqtabusm0MvjNoWH85", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 2, "name": "outdoor_raw_noisy_scene2.zip", "id": "1G9wLpPFctaKN7i8zcfSlUefLtXyeyGHv", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 3, "name": "outdoor_raw_noisy_scene3.zip", "id": "1FeqdzNQgujp5iLxlRoBK5DUnjG5o6W57", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 4, "name": "outdoor_raw_noisy_scene4.zip", "id": "18kW-BNV3OVF0FkhvAZ8Sjr7EV7R8sZa5", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 5, "name": "outdoor_raw_noisy_scene5.zip", "id": "1tPgTTF9QY9jdKvIzOFXWlX1ZP40svt6D", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 6, "name": "outdoor_raw_noisy_scene6.zip", "id": "1Z8UJcywEnUeasxmVhPZM1vCtEm0sESBZ", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 7, "name": "outdoor_raw_noisy_scene7.zip", "id": "1P1qKwtBel8WRbYRL8ILzM8lmeerP-jJZ", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 8, "name": "outdoor_raw_noisy_scene8.zip", "id": "1WB56so9Vea0cVJdapjvX3c0DAy24Ox1n", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 9, "name": "outdoor_raw_noisy_scene9.zip", "id": "156RuXM0BQF8NZW3hqtN_P4AFBTTEvxfl", "size_bytes": null, "sha256": null},
+        {"collection": "outdoor_raw_noisy", "scene": 10, "name": "outdoor_raw_noisy_scene10.zip", "id": "1sxSMd0NDubWlNNAdqnPqnRR9e_xpAkgE", "size_bytes": null, "sha256": null}
+      ]
+    },
+    "real-rawvsr": {
+      "homepage": "https://github.com/zmzhang1998/Real-RawVSR#dataset",
+      "license": "CC-BY-NC-SA-4.0; academic non-commercial use only",
+      "license_url": "https://github.com/zmzhang1998/Real-RawVSR#copyright",
+      "download_url": "https://pan.baidu.com/s/1G5_zCt_L_POzwb_mWgpuDA",
+      "access_code": "hxyl",
+      "mode": "manual",
+      "note": "The MSTMN evaluation uses the x2 portion: 20 test videos, at most 51 frames each. The exact test-video IDs, high-quality RAW file selection, archive layout, and accessibility remain unverified. The Baidu link and access code alone do not identify a confirmed MSTMN evaluation manifest."
+    }
+  }
+}

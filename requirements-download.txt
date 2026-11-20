@@ -1,0 +1,2 @@
+# Download tooling only; not the model's training environment. Python >=3.10.
+gdown==6.5.2

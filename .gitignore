@@ -221,3 +221,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Benchmark payloads, partial downloads and per-machine receipts
+/data/
+/datasets/
+/benchmark-downloads/
+/.venv-download/
+/.venv-eval/
+/results/
+/checkpoints/
+*.pth
+*.pt
+*.ckpt
